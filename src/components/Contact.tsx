@@ -1,8 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
+import ContactForm from "@/components/functional/ContactForm";
 import { 
   Phone, 
   Mail, 
@@ -59,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="text-muted-foreground">info@coopavanza.com</p>
+                    <p className="text-muted-foreground">cooperativaavanzard@gmail.com</p>
                     <p className="text-muted-foreground">soporte@coopavanza.com</p>
                   </div>
                 </div>
@@ -111,20 +109,12 @@ const Contact = () => {
                 <div className="flex items-center justify-between p-3 bg-muted/50 rounded-lg">
                   <div className="flex items-center space-x-3">
                     <Instagram className="h-5 w-5 text-pink-600" />
-                    <span className="font-medium">@coopavanza</span>
+                    <span className="font-medium">@coopavanzard</span>
                   </div>
                   <Button variant="outline" size="sm" className="border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white">
-                    Seguir
-                  </Button>
-                </div>
-
-                <div className="flex items-center justify-between p-3 bg-muted/50 rounded-lg">
-                  <div className="flex items-center space-x-3">
-                    <Instagram className="h-5 w-5 text-pink-600" />
-                    <span className="font-medium">@coopavanza_rd</span>
-                  </div>
-                  <Button variant="outline" size="sm" className="border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white">
-                    Seguir
+                    <a href="https://www.instagram.com/coopavanzard?igsh=dGN5am1sNmNkMTFi" target="_blank" rel="noopener noreferrer">
+                      Seguir
+                    </a>
                   </Button>
                 </div>
               </CardContent>
@@ -143,73 +133,7 @@ const Contact = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div>
-                    <Label htmlFor="firstName">Nombre *</Label>
-                    <Input 
-                      id="firstName" 
-                      placeholder="Tu nombre" 
-                      required 
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="lastName">Apellido *</Label>
-                    <Input 
-                      id="lastName" 
-                      placeholder="Tu apellido" 
-                      required 
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <Label htmlFor="email">Email *</Label>
-                  <Input 
-                    id="email" 
-                    type="email" 
-                    placeholder="tu@email.com" 
-                    required 
-                  />
-                </div>
-
-                <div>
-                  <Label htmlFor="phone">Teléfono</Label>
-                  <Input 
-                    id="phone" 
-                    type="tel" 
-                    placeholder="+1 (809) 123-4567" 
-                  />
-                </div>
-
-                <div>
-                  <Label htmlFor="subject">Asunto *</Label>
-                  <Input 
-                    id="subject" 
-                    placeholder="¿En qué podemos ayudarte?" 
-                    required 
-                  />
-                </div>
-
-                <div>
-                  <Label htmlFor="message">Mensaje *</Label>
-                  <Textarea 
-                    id="message" 
-                    placeholder="Describe tu consulta o solicitud..." 
-                    rows={5}
-                    required 
-                  />
-                </div>
-
-                <Button className="w-full bg-gradient-primary hover:opacity-90">
-                  <Send className="mr-2 h-4 w-4" />
-                  Enviar Mensaje
-                </Button>
-
-                <p className="text-xs text-muted-foreground text-center">
-                  * Campos obligatorios. Nos comprometemos a responder en menos de 24 horas.
-                </p>
-              </form>
+              <ContactForm />
             </CardContent>
           </Card>
         </div>

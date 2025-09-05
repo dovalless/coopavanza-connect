@@ -2,9 +2,10 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import About from "@/components/About";
-import Simulators from "@/components/Simulators";
+import FunctionalSimulators from "@/components/functional/FunctionalSimulators";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ContactForm from "@/components/functional/ContactForm";
 
 const Index = () => {
   return (
@@ -13,7 +14,7 @@ const Index = () => {
       <Hero />
       <Services />
       <About />
-      <Simulators />
+      <FunctionalSimulators />
       <Contact />
       <Footer />
     </div>

@@ -24,20 +24,24 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button 
-                size="lg" 
-                className="bg-white text-primary hover:bg-white/90 shadow-glow text-lg px-8"
-              >
-                Hazte Socio
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-primary text-lg px-8"
-              >
-                Conoce Nuestros Servicios
-              </Button>
+              <a href="/auth">
+                <Button 
+                  size="lg" 
+                  className="bg-white text-primary hover:bg-white/90 shadow-glow text-lg px-8"
+                >
+                  Hazte Socio
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </a>
+              <a href="#servicios">
+                <Button 
+                  size="lg" 
+                  variant="outline" 
+                  className="border-white text-white hover:bg-white hover:text-primary text-lg px-8"
+                >
+                  Conoce Nuestros Servicios
+                </Button>
+              </a>
             </div>
 
             {/* Stats */}
@@ -77,16 +81,20 @@ const Hero = () => {
                     placeholder="Contraseña" 
                     className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
                   />
-                  <Button className="w-full bg-white text-primary hover:bg-white/90 py-3">
-                    Ingresar
-                  </Button>
+                  <a href="/auth">
+                    <Button className="w-full bg-white text-primary hover:bg-white/90 py-3">
+                      Ingresar
+                    </Button>
+                  </a>
                 </div>
                 
                 <div className="mt-6 pt-6 border-t border-white/20">
                   <p className="text-sm opacity-75 mb-3">¿No tienes cuenta?</p>
-                  <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                    Solicitar Membresía
-                  </Button>
+                  <a href="/auth">
+                    <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+                      Solicitar Membresía
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>

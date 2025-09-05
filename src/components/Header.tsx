@@ -67,9 +67,11 @@ const Header = () => {
             <a href="#contacto" className="text-foreground hover:text-primary transition-colors font-medium">
               Contacto
             </a>
-            <Button variant="default" className="bg-gradient-primary hover:opacity-90">
-              Área de Socios
-            </Button>
+            <a href="/auth">
+              <Button variant="default" className="bg-gradient-primary hover:opacity-90">
+                Área de Socios
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -100,9 +102,11 @@ const Header = () => {
               <a href="#contacto" className="text-foreground hover:text-primary transition-colors font-medium">
                 Contacto
               </a>
-              <Button variant="default" className="bg-gradient-primary hover:opacity-90 w-full">
-                Área de Socios
-              </Button>
+              <a href="/auth">
+                <Button variant="default" className="bg-gradient-primary hover:opacity-90 w-full">
+                  Área de Socios
+                </Button>
+              </a>
             </div>
           </div>
         )}
