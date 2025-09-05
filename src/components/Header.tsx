@@ -18,7 +18,7 @@ const Header = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@coopavanza.com</span>
+                <span>cooperativaavanzard@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
@@ -27,11 +27,8 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-xs opacity-90">Síguenos:</span>
-              <a href="https://instagram.com/coopavanza" className="hover:opacity-80 transition-opacity">
-                @coopavanza
-              </a>
-              <a href="https://instagram.com/coopavanza_rd" className="hover:opacity-80 transition-opacity">
-                @coopavanza_rd
+              <a href="https://www.instagram.com/coopavanzard?igsh=dGN5am1sNmNkMTFi" className="hover:opacity-80 transition-opacity">
+                @coopavanzard
               </a>
             </div>
           </div>

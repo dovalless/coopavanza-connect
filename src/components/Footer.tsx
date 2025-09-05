@@ -23,10 +23,7 @@ const Footer = () => {
               Más que una cooperativa, somos tu familia financiera.
             </p>
             <div className="flex items-center space-x-4">
-              <a href="https://instagram.com/coopavanza" className="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="https://instagram.com/coopavanza_rd" className="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
+              <a href="https://www.instagram.com/coopavanzard?igsh=dGN5am1sNmNkMTFi" className="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
@@ -79,7 +76,7 @@ const Footer = () => {
               <Mail className="h-5 w-5 text-white/90" />
               <div>
                 <p className="font-medium">Email</p>
-                <p className="text-white/90">info@coopavanza.com</p>
+                <p className="text-white/90">cooperativaavanzard@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
