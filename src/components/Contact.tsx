@@ -8,6 +8,7 @@ import {
   Clock, 
   MessageCircle, 
   Instagram,
+  Facebook,
   Send,
   Building
 } from "lucide-react";
@@ -113,6 +114,18 @@ const Contact = () => {
                   </div>
                   <Button variant="outline" size="sm" className="border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white">
                     <a href="https://www.instagram.com/coopavanzard?igsh=dGN5am1sNmNkMTFi" target="_blank" rel="noopener noreferrer">
+                      Seguir
+                    </a>
+                  </Button>
+                </div>
+
+                <div className="flex items-center justify-between p-3 bg-muted/50 rounded-lg">
+                  <div className="flex items-center space-x-3">
+                    <Facebook className="h-5 w-5 text-blue-600" />
+                    <span className="font-medium">Facebook</span>
+                  </div>
+                  <Button variant="outline" size="sm" className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">
+                    <a href="https://www.facebook.com/share/1GCbn5PARi/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
                       Seguir
                     </a>
                   </Button>

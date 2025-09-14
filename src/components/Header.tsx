@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, Phone, Mail, MapPin } from "lucide-react";
+import { Menu, Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -27,8 +27,11 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-xs opacity-90">Síguenos:</span>
-              <a href="https://www.instagram.com/coopavanzard?igsh=dGN5am1sNmNkMTFi" className="hover:opacity-80 transition-opacity">
-                @coopavanzard
+              <a href="https://www.instagram.com/coopavanzard?igsh=dGN5am1sNmNkMTFi" target="_blank" rel="noopener noreferrer" className="p-1 hover:opacity-80 transition-opacity">
+                <Instagram className="h-4 w-4" />
+              </a>
+              <a href="https://www.facebook.com/share/1GCbn5PARi/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="p-1 hover:opacity-80 transition-opacity">
+                <Facebook className="h-4 w-4" />
               </a>
             </div>
           </div>
