@@ -11,7 +11,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/4336f1b8-24cc-41a2-b67a-294179b11a34.png" 
                 alt="Coopavanza Logo" 
-                className="h-12 w-auto brightness-0 invert"
+                className="h-12 w-auto"
               />
               <div>
                 <h3 className="text-2xl font-bold">COOPAVANZA</h3>
@@ -26,7 +26,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/coopavanzard?igsh=dGN5am1sNmNkMTFi" className="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
+              <a href="https://www.facebook.com/share/1GCbn5PARi/?mibextid=wwXIfr" className="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors">
@@ -83,7 +83,7 @@ const Footer = () => {
               <MapPin className="h-5 w-5 text-white/90" />
               <div>
                 <p className="font-medium">Dirección</p>
-                <p className="text-white/90">Ave. Principal #123, Santo Domingo</p>
+                <p className="text-white/90">Carretera San Víctor 1, Moca, República Dominicana</p>
               </div>
             </div>
           </div>
